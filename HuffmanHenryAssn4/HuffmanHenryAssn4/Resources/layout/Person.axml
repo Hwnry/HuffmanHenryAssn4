@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Id#: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIdPrompt" />
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvId" />
+  <TextView
+    android:text="Last Name: "
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvLastPrompt" />
+  <TextView
+    android:text=""
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvLast" />
+  <TextView
+    android:text="First Name:"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvFirstPrompt" />
+  <TextView
+    android:text=""
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvFirst" />
+  <TextView
+    android:text="Hourly Wage:"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvWagePrompt" />
+  <TextView
+    android:text=""
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvWage" />
+  <TextView
+    android:text="Hours Worked: "
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvHoursPrompt" />
+  <TextView
+    android:text=""
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvHours" />
+  <TextView
+    android:text="Total Payroll: "
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvTotalPrompt" />
+  <TextView
+    android:text=""
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvTotal" />
+</LinearLayout>
